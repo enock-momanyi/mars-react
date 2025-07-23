@@ -6,12 +6,12 @@ const nextConfig: NextConfig = {
     remotePatterns : [
       {
       protocol: 'http',
-      hostname: 'api.nasa.gov',
+      hostname: 'mars.jpl.nasa.gov',
       pathname: '/**'
     },
     {
       protocol: 'https',
-      hostname: 'api.nasa.gov',
+      hostname: 'mars.jpl.nasa.gov',
       pathname: '/**'
     }
   ]
